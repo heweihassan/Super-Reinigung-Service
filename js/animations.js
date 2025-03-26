@@ -4,7 +4,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // AOS Bibliothek initialisieren
     AOS.init({
-        duration: 800,
+        duration: 400,
         easing: 'ease-in-out',
         once: true,
         mirror: false
