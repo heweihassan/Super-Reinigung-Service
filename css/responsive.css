@@ -311,8 +311,8 @@
     
     /* Vergrößertes Kontrollkästchen für die Datenschutzerklärung */
     .form-privacy input[type="checkbox"] {
-        width: 28px;
-        height: 28px;
+        width: 26px;
+        height: 26px;
         margin-right: var(--spacing-sm);
         margin-top: 2px;
     }
