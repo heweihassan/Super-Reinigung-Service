@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Reinigung Service - Professionelle Reinigungsdienstleistungen</title>
+    <meta name="description" content="Super Reinigung Service (SRS) bietet professionelle Reinigungs- und Gartenpflegedienste für Privat- und Geschäftskunden.">
+    
+    <!-- CSS-Dateien -->
+    <link rel="stylesheet" href="css/normalize.css"> <!-- CSS Reset für konsistentes Rendering -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Hauptstildatei -->
+    <link rel="stylesheet" href="css/responsive.css"> <!-- Responsive Stile -->
+    <link rel="stylesheet" href="css/animations.css"> <!-- Animations Stile -->
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/Suchleiste%20Logo.png">
+</head>
+<body>
+    <!-- Header-Bereich mit Logo und Navigation -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/Logo.svg" alt="Super Reinigung Service Logo" class="logo-image">
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <!-- Hauptnavigation -->
+            <nav id="main-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Startseite</a></li>
+                    <li><a href="pages/leistungen.html">Leistungen</a></li>
+                    <li><a href="pages/ueber-uns.html">Über uns</a></li>
+                    <li><a href="pages/kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero-Bereich mit Hauptangebot -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Professionelle Reinigung & Gartenpflege</h1>
+                <p>Wir bieten erstklassige Reinigungs- und Gartenpflegedienste für Privat- und Geschäftskunden.</p>
+                <div class="hero-buttons">
+                    <a href="pages/leistungen.html" class="btn btn-primary">Unsere Leistungen</a>
+                    <a href="pages/kontakt.html" class="btn btn-secondary">Kontakt aufnehmen</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Dienstleistungen im Überblick -->
+    <section id="services-overview">
+        <div class="container">
+            <h2 data-aos="fade-up">Unsere Dienstleistungen</h2>
+            
+            <div class="services-grid">
+                <!-- Reinigungsservices -->
+                <div class="service-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-category-header">
+                        <i class="fas fa-broom"></i>
+                        <h3>Reinigungsservices</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Gebäudereinigung</li>
+                        <li>Glasreinigung</li>
+                        <li>Fensterreinigung</li>
+                        <li>Fußbodenreinigung</li>
+                        <li>Büroreinigung</li>
+                        <li>Grundreinigung</li>
+                    </ul>
+                    <a href="pages/leistungen.html#reinigung" class="more-link">Mehr erfahren</a>
+                </div>
+                
+                <!-- Gartenpflege -->
+                <div class="service-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-category-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Gartenpflege</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Gartenpflege</li>
+                        <li>Winterdienst</li>
+                        <li>Rasenpflege</li>
+                        <li>Rasenerneuerung</li>
+                        <li>Rollrasen</li>
+                        <li>Saisonale Gartenpflege</li>
+                    </ul>
+                    <a href="pages/leistungen.html#garten" class="more-link">Mehr erfahren</a>
+                </div>
+                
+                <!-- Spezialservices -->
+                <div class="service-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-category-header">
+                        <i class="fas fa-hand-sparkles"></i>
+                        <h3>Spezialservices</h3>
+                    </div>
+                    <ul class="service-list">
+                        <li>Umzug</li>
+                        <li>Steinreinigung</li>
+                        <li>Entrümpelung</li>
+                        <li>Entsorgung</li>
+                        <li>Spezialreinigungen</li>
+                        <li>Maßgeschneiderte Lösungen</li>
+                    </ul>
+                    <a href="pages/leistungen.html#spezial" class="more-link">Mehr erfahren</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Warum uns wählen -->
+    <section id="why-choose-us">
+        <div class="container">
+            <h2 data-aos="fade-up">Warum Sie uns wählen sollten</h2>
+            
+            <div class="features-grid">
+                <div class="feature" data-aos="fade-up-right" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Professionelles Team</h3>
+                    <p>Unser geschultes Team arbeitet mit höchster Sorgfalt und Professionalität.</p>
+                </div>
+                
+                <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Zuverlässigkeit</h3>
+                    <p>Wir halten unsere Termine ein und erledigen die Arbeit pünktlich und zuverlässig.</p>
+                </div>
+                
+                <div class="feature" data-aos="fade-up-left" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Qualitätsservice</h3>
+                    <p>Wir legen großen Wert auf Qualität und Kundenzufriedenheit bei jedem Auftrag.</p>
+                </div>
+                
+                <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3>Faire Preise</h3>
+                    <p>Wir bieten transparente und faire Preise für all unsere Dienstleistungen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call-to-Action-Bereich -->
+    <section id="cta">
+        <div class="container" data-aos="zoom-in">
+            <h2>Bereit für einen makellosen Service?</h2>
+            <p>Kontaktieren Sie uns noch heute für ein unverbindliches Angebot!</p>
+            <a href="pages/kontakt.html" class="btn btn-primary btn-large">Jetzt Kontakt aufnehmen</a>
+        </div>
+    </section>
+    
+    <!-- Footer-Bereich -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-logo">
+                        <img src="images/Logo.svg" alt="Super Reinigung Service Logo" class="footer-logo-image">
+                    </div>
+                    <p>Professionelle Reinigungs- und Gartenpflegedienste für Privat- und Geschäftskunden.</p>
+                </div>
+                
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Kontakt</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> <a href="tel:01762255021">0176 2255 0216</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:01632137709">0163 2137 709</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:nur.moho@outlook.de">nur.moho@outlook.de</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Schnelllinks</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Startseite</a></li>
+                        <li><a href="pages/leistungen.html">Leistungen</a></li>
+                        <li><a href="pages/ueber-uns.html">Über uns</a></li>
+                        <li><a href="pages/kontakt.html">Kontakt</a></li>
+                        <li><a href="pages/impressum.html">Impressum</a></li>
+                        <li><a href="pages/datenschutz.html">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Super Reinigung Service. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript-Dateien -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html> 

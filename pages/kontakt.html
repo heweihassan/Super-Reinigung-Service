@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Super Reinigung Service</title>
+    <meta name="description" content="Nehmen Sie Kontakt mit Super Reinigung Service auf für professionelle Reinigungs- und Gartenpflegedienste. Wir freuen uns auf Ihre Anfrage!">
+    
+    <!-- CSS-Dateien -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animations.css"> <!-- Animations Stile -->
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/Suchleiste%20Logo.png">
+</head>
+<body>
+    <!-- Header-Bereich mit Logo und Navigation -->
+    <header id="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/Logo.svg" alt="Super Reinigung Service Logo" class="logo-image">
+                </a>
+            </div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <!-- Hauptnavigation -->
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="../index.html">Startseite</a></li>
+                    <li><a href="leistungen.html">Leistungen</a></li>
+                    <li><a href="ueber-uns.html">Über uns</a></li>
+                    <li class="active"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Seitenüberschrift -->
+    <section id="page-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Kontakt</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Wir freuen uns auf Ihre Anfrage</p>
+        </div>
+    </section>
+    
+    <!-- Kontaktinformationen und Formular -->
+    <section id="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <!-- Kontaktinformationen -->
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <div class="contact-header">
+                        <i class="fas fa-address-card section-icon"></i>
+                        <h2>Kontaktinformationen</h2>
+                        <p>Hier erreichen Sie uns</p>
+                    </div>
+                    
+                    <ul class="contact-details">
+                        <li data-aos="fade-up" data-aos-delay="150">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-detail-content">
+                                <h3>Telefon</h3>
+                                <p><a href="tel:01762255021">0176 2255 0216</a></p>
+                                <p><a href="tel:01632137709">0163 2137 709</a></p>
+                            </div>
+                        </li>
+                        
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-detail-content">
+                                <h3>E-Mail</h3>
+                                <p><a href="mailto:nur.moho@outlook.de">nur.moho@outlook.de</a></p>
+                            </div>
+                        </li>
+                        
+                        <li data-aos="fade-up" data-aos-delay="250">
+                            <i class="fas fa-clock"></i>
+                            <div class="contact-detail-content">
+                                <h3>Servicezeiten</h3>
+                                <p>Montag - Freitag: 8:00 - 18:00 Uhr</p>
+                                <p>Samstag: 9:00 - 14:00 Uhr</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="300">
+                        <h3>Folgen Sie uns</h3>
+                        <div class="social-icons">
+                            <a href="#" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Kontaktformular -->
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="100">
+                    <div class="form-header">
+                        <i class="fas fa-paper-plane section-icon"></i>
+                        <h2>Schreiben Sie uns</h2>
+                        <p>Wir antworten so schnell wie möglich</p>
+                    </div>
+                    
+                    <form id="contact-form" action="#" method="post">
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="150">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="200">
+                            <label for="email">E-Mail <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="250">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group" data-aos="fade-up" data-aos-delay="300">
+                            <label for="message">Ihre Nachricht <span class="required">*</span></label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group form-privacy" data-aos="fade-up" data-aos-delay="350">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <label for="privacy">Ich stimme zu, dass meine Angaben zur Kontaktaufnahme und für Rückfragen gespeichert werden. Hinweise zum Datenschutz finden Sie in unserer <a href="datenschutz.html">Datenschutzerklärung</a>. <span class="required">*</span></label>
+                        </div>
+                        
+                        <div class="form-submit" data-aos="fade-up" data-aos-delay="400">
+                            <button type="submit" class="btn btn-primary">Nachricht senden</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer-Bereich -->
+    <footer id="main-footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="100">
+                    <div class="footer-logo">
+                        <img src="../images/Logo.svg" alt="Super Reinigung Service Logo" class="footer-logo-image">
+                    </div>
+                    <p>Professionelle Reinigungs- und Gartenpflegedienste für Privat- und Geschäftskunden.</p>
+                </div>
+                
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Kontakt</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-phone"></i> <a href="tel:01762255021">0176 2255 0216</a></li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:01632137709">0163 2137 709</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:nur.moho@outlook.de">nur.moho@outlook.de</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Schnelllinks</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Startseite</a></li>
+                        <li><a href="leistungen.html">Leistungen</a></li>
+                        <li><a href="ueber-uns.html">Über uns</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                        <li><a href="impressum.html">Impressum</a></li>
+                        <li><a href="datenschutz.html">Datenschutz</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Super Reinigung Service. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript-Dateien -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/animations.js"></script>
+</body>
+</html> 

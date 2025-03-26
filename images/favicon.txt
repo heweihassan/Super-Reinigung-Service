@@ -1,0 +1,14 @@
+Erinnerung: 
+
+Bitte erstellen Sie ein Favicon für die Website und ersetzen Sie diese Datei mit einer favicon.png Datei.
+
+Das Favicon sollte das SRS-Logo verwenden und idealerweise in verschiedenen Größen für verschiedene Geräte generiert werden.
+Empfehlung: Verwenden Sie einen Favicon-Generator, um verschiedene Größen und Formate zu erstellen.
+
+Für ein vollständiges Favicon-Set benötigen Sie:
+- favicon.ico
+- favicon-16x16.png
+- favicon-32x32.png
+- apple-touch-icon.png
+- android-chrome-192x192.png
+- android-chrome-512x512.png 

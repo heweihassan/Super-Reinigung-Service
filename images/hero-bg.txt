@@ -1,0 +1,12 @@
+Erinnerung: 
+
+Bitte erstellen Sie ein ansprechendes Hintergrundbild für den Hero-Bereich und ersetzen Sie diese Datei mit einer hero-bg.jpg Datei.
+
+Das Bild sollte:
+- Hochwertige Reinigungsszenen oder gepflegte Gärten zeigen
+- Eine Mindestbreite von 1920px haben für große Bildschirme
+- Optimiert sein für schnelle Ladezeiten
+- Einen guten Kontrast zum weißen Text bieten
+- Idealerweise abgedunkelt sein oder einen Overlay haben, damit der Text gut lesbar ist
+
+Speichern Sie das Bild als hero-bg.jpg in diesem Verzeichnis. 
