@@ -1051,6 +1051,10 @@ section {
     transition: var(--transition);
 }
 
+.social-icon i {
+    margin-right: 0;
+}
+
 .social-icon:hover {
     background-color: var(--primary-color);
     color: var(--white);

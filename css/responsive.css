@@ -308,6 +308,20 @@
         font-size: 0.9rem;
         padding: var(--spacing-sm);
     }
+    
+    /* Vergrößertes Kontrollkästchen für die Datenschutzerklärung */
+    .form-privacy input[type="checkbox"] {
+        width: 28px;
+        height: 28px;
+        margin-right: var(--spacing-sm);
+        margin-top: 2px;
+    }
+    
+    .form-privacy label {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        padding-top: 4px;
+    }
 }
 
 /* Orientierung: Landscape für Mobilgeräte */
